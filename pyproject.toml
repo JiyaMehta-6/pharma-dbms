@@ -1,0 +1,17 @@
+[project]
+name = "pharma-db"
+version = "1.0.0"
+description = "Pharma DBMS - desktop database management system for the Indian medicine catalogue (SQLite + PySide6 GUI); DBMS course activity"
+readme = "README.md"
+license = "GPL-3.0-only"
+requires-python = ">=3.11"
+dependencies = [
+    "pyside6>=6.12.0",
+]
+
+[project.scripts]
+pharma-db = "pharma_db:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

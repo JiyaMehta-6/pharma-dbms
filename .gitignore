@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+wheels/
+.venv/
+
+# SQLite sidecars / backups
+*.db-wal
+*.db-shm
+Backups/
+
+# Source data & built database (large + not redistributable — see README)
+Data/indian_medicine_data.csv
+Data/indian_medicine.db
+Data/*.db
+
+# Local tooling
+env supp/
+
+# Scratch / temp
+_*.py
+_*.txt
+*.tmp
+.cache/
+.pytest_cache/
+.ruff_cache/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
